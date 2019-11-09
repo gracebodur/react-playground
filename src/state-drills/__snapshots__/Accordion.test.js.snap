@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component closes previously selected sections when a new section is selected 1`] = `
+<div>
+  <ul>
+    <div>
+      <li
+        key="0"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Section 1
+        </button>
+      </li>
+    </div>
+    <div>
+      <li
+        key="1"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Section 2
+        </button>
+      </li>
+    </div>
+    <div>
+      <li
+        key="2"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Section 3
+        </button>
+        <p>
+          Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+        </p>
+      </li>
+    </div>
+  </ul>
+</div>
+`;
+
+exports[`Accordion Component opens a clicked section 1`] = `
+<div>
+  <ul>
+    <div>
+      <li
+        key="0"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Section 1
+        </button>
+      </li>
+    </div>
+    <div>
+      <li
+        key="1"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Section 2
+        </button>
+        <p>
+          Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+        </p>
+      </li>
+    </div>
+    <div>
+      <li
+        key="2"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Section 3
+        </button>
+      </li>
+    </div>
+  </ul>
+</div>
+`;
+
+exports[`Accordion Component renders empty given no sections props 1`] = `
+<div>
+  <ul />
+</div>
+`;
+
+exports[`Accordion Component renders no section as active by default 1`] = `
+<div>
+  <ul>
+    <div>
+      <li
+        key="0"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Section 1
+        </button>
+      </li>
+    </div>
+    <div>
+      <li
+        key="1"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Section 2
+        </button>
+      </li>
+    </div>
+    <div>
+      <li
+        key="2"
+      >
+        <button
+          onClick={[Function]}
+        >
+          Section 3
+        </button>
+      </li>
+    </div>
+  </ul>
+</div>
+`;
