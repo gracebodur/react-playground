@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+// import App from "./App";
 import "./index.css";
-import Bomb from "./state-drills/RouletteGun";
-import RouletteGun from "./state-drills/RouletteGun";
+import AppLang from "./lang-context/AppLang";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+// import Bomb from "./state-drills/RouletteGun";
+// import RouletteGun from "./state-drills/RouletteGun";
+
+ReactDOM.render(<AppLang />, document.getElementById("root"));
