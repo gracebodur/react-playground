@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import Content from './Content'
 import './Nav.css'
 
@@ -6,15 +7,17 @@ export default class Nav extends Component {
   render() {
     return (
       <Content className='Nav'>
-        <a href='/'>
+        {/* <a href='/'> imported Link and added Link to*/}
+        <Link to ='/'>
           Home
-        </a>
-        <a href='/about'>
+        {/* </a> */}
+        </Link>
+        <Link to='/about'>
           About
-        </a>
-        <a href='/workouts'>
+        </Link>
+        <Link to='/workouts'>
           Workouts
-        </a>
+        </Link>
       </Content>
     )
   }
