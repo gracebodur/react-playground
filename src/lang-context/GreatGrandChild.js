@@ -17,7 +17,6 @@ export default class GreatGrandChild extends React.Component{
                 <h2>{copy.title}</h2>
                 <p>{copy.body}</p>
                 {/* <button> */}
-              
             </section>
         )
     }
