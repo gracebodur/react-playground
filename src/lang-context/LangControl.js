@@ -5,7 +5,7 @@ import LanguageContext from './LanguageContext'
 //import language context
 //
 
-export default function LangControl() {
+export default function LangControl(props) {
     return (
         <LanguageContext.Consumer>
             {/* {function renderProp() { */}
@@ -15,6 +15,7 @@ export default function LangControl() {
                 <>
                 {/* <button> */}
                 <button
+                    onClick={() => props.onSetLang('en-GB')}
                     disabled={value.lang === 'en-GB'}>
                     British {' '}
                     <span role='img' aria-label='en-GB'>🇬🇧</span>
@@ -22,6 +23,7 @@ export default function LangControl() {
                 {' '}
                 {/* <button> */}
                 <button
+                    onClick={() => props.onSetLang('en-US')}
                     disabled={value.lang === 'en-US'}>
                     American{' '}
                     <span role='img' aria-label='en-US'>🇺🇸</span>
@@ -29,6 +31,7 @@ export default function LangControl() {
                 {' '}
                 {/* <button> */}
                 <button
+                    onClick={() => props.onSetLang('ko')}
                     disabled={value.lang === 'ko'}>
                     Korean{' '}
                     <span role='img' aria-label='ko'>🇰🇷</span>
@@ -36,6 +39,7 @@ export default function LangControl() {
                 {' '}
                 {/* <button> */}
                 <button
+                    onClick={() => props.onSetLang('fil')}
                    disabled={value.lang === 'fil'}>
                     Filipino {' '}
                     <span role='img' aria-label='fil'>PH</span>
