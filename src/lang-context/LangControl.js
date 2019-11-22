@@ -45,6 +45,12 @@ export default function LangControl(props) {
                     <span role='img' aria-label='fil'>PH</span>
                 </button>
                 {' '}
+                <button
+                    onClick={() => props.onSetLang('klingon')} >
+                    Klingon!{' '}
+                    {/* yes I know it's a vulcan salut but star-wars */}
+                    <span role='img' aria-label='klingon'>🖖</span>
+                </button>
                 </>
                 )
             }}

@@ -14,6 +14,10 @@ const languageSpecificCopy = {
     'fil': {
         title: 'Kamusta Kabayan!',
         body: 'Kamusta ka kabayan. Magandang umaga. Magandang Tanghali. Magandang Gabi.'
+    },
+    'klingon' : {
+        title:'qaH jaj QaQ!!',
+        body: `Laboris cupidatat labore excepteur laborum velit ut et aliqua aliquip mollit tempor anim exercitation.`
     }
 }
 

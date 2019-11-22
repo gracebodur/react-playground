@@ -12,7 +12,8 @@ export default class AppLang extends React.Component{
     }
     render() {
         const contextValue = {
-            lang:this.state.lang
+            lang:this.state.lang,
+            setlang: this.handleSetLang
         }
         return(
             //wrap jsx and components in the Provider add in value to the Provider
