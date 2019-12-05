@@ -8,10 +8,11 @@ import "./index.css";
 // import {BrowserRouter} from 'react-router-dom'
 // import Bomb from "./state-drills/RouletteGun";
 // import RouletteGun from "./state-drills/RouletteGun";
-import Button from './buttonclick/Button'
+// import Button from './buttonclick/Button'
+import App from './increment-button/app'
 
 
-ReactDOM.render( <Button />, document.getElementById("root"));
+ReactDOM.render( <App />, document.getElementById("root"));
 
  //{/* <BrowserRouter>
 //<App/>
