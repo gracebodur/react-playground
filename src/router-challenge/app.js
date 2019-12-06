@@ -1,8 +1,11 @@
 import React from 'react';
 import AboutMenu from './about-menu';
-//import Route from react-router-dom
+//5. import Route from react-router-dom
 import {Route} from 'react-router-dom'
 
+
+//6. wrap make path dynamic using the : colon, 
+//then wrap <AppMenu /> component in Route
 export default function App(props) {
     return (
         <div className="app">

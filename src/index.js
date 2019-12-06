@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+//1.install react-router-dom npm i react-router-dom
+//2. import BrowserRouter then wrap <App /> 
 import {BrowserRouter} from 'react-router-dom'
 // import App from './playingwithdanger/App'
 // import RegistrationForm from './registrationForm/registrationForm'
@@ -19,6 +21,3 @@ ReactDOM.render(
     <App />
 </BrowserRouter>, document.getElementById("root"));
 
- //{/* <BrowserRouter>
-//<App/>
-//</BrowserRouter>, */}
