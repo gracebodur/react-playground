@@ -12,12 +12,21 @@ import {BrowserRouter} from 'react-router-dom'
 // import RouletteGun from "./state-drills/RouletteGun";
 // import Button from './buttonclick/Button'
 // import App from './increment-button/app'
-import App from './router-challenge/app'
+import { Provider, connect } from 'react-redux'
+import { createStore, applyMiddleware } from 'redux'
+import { createLogger } from 'redux-logger'
+import { searchRobots } from "./reducers"
+import 'tachyons'
+import App from './App'
 
+const logger = createLogger()
+const store = createStore(searchRobots, applyMiddleware(logger))
 
 ReactDOM.render(
 <BrowserRouter>
-    <App />
+    <Provider store = {store}>
+        <App  />
+    </Provider>
 </BrowserRouter>, document.getElementById("root"));
 
 
